@@ -10,3 +10,9 @@
     width: 50vw;
     align-items: center;
 }
+
+
+.show-result
+{
+    display: block;
+}
