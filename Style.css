@@ -62,22 +62,23 @@ input
     margin:1em auto;
     font-size:1.1rem;
     height:2em;
-    border-color: var(--color-two);
+    color: white;
+    background-color: var(--color-two);
     text-align: center;
+    border-radius: 0.5em;
 
 }
 #check-button:hover
 {
-    background-color: var(--color-two);
-    color:white;
+    background-color: white ;
+    color:var(--color-two);
     
 }
-
 #check-button:active
 {
-    
-    color:blue;
+    color: black;
 }
+
 .show-result
 {
     text-align: center;
