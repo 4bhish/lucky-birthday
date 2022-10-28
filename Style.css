@@ -2,17 +2,89 @@
 {
 
 }
-
-.container
+:root
 {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    align-items: center;
+    --color-one: #4338ca;
+    --color-two: #3730a3;
+    --color-three:#312e81;
 }
 
+body {
+    
+    padding: 20px;
+    font-family:tahoma;
+    color: white;
+    background-color: var(--color-one);
+   
+  }
+  label {
+    display: block;
+  margin: 0.5rem 0;
+  text-align: center;
+  padding-top: 1em;
+  }
 
+  h1,p
+{
+    margin: 1em auto;
+    text-align: center;
+}
+.container
+{ 
+  padding-bottom: 2em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+input
+{
+    cursor: pointer;
+    min-width: 100px;
+    display: block;
+    width:60%;
+    margin: 0.5em  auto;
+    font-size:1.1rem;
+    height:2em;
+    background-color: var(--color-two);
+    color:white;
+    border-color: var(--color-two);
+    border-radius: 5px;
+    box-shadow: none;
+}
+#check-button
+{
+    cursor: pointer;
+    min-width: 50px;
+    display: block;
+    width:25%;
+    margin:1em auto;
+    font-size:1.1rem;
+    height:2em;
+    border-color: var(--color-two);
+    text-align: center;
+
+}
+#check-button:hover
+{
+    background-color: var(--color-two);
+    color:white;
+    
+}
+
+#check-button:active
+{
+    
+    color:blue;
+}
 .show-result
 {
-    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
 }

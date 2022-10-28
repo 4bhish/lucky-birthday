@@ -7,18 +7,21 @@
     <title>Lucky Birthday</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-<body><div class="container">
+<body>
+    <div class="container">
     <h1 class="heading">Is your Birthday Lucky?</h1>
-    <p1 class="discription">Check If your birthday is lucky,using your Lucky Number</p1>
+    <p class="discription">Check If your birthday is lucky,using your Lucky Number</p>
 
-    <label for="dob"></label>
+    <label for="dob">Enter Date Of Birth: </label>
     <input type=Date id="dob-input">
 
-    <label for="lucky-number">Enter Your Lucky Number</label>
-    <input type="Number" id="lucky-number">
+    <label for="lucky-number">Enter Your Lucky Number: </label>
+    <input required="pls enter this" type="Number" id="lucky-number">
 
     <button id="check-button">Check</button>
-    <p1 class="show-result"></p1>
+    <div class="show-result"></div>
+
+    
 
 </div>
     <script src="app.js"></script>
