@@ -19,14 +19,20 @@ body {
   }
   label {
     display: block;
-  margin: 0.5rem 0;
+  margin: auto;
   text-align: center;
   padding-top: 1em;
+  font-size: 20px;
   }
 
-  h1,p
+  h1, p
 {
     margin: 1em auto;
+    text-align: center;
+}
+span
+{
+    font-weight: bold;
     text-align: center;
 }
 .container
