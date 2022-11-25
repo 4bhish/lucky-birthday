@@ -18,7 +18,7 @@ checkBtn.addEventListener("click", function luckyDob()
     {
 
         
-        showMessage("unfortunately, that's not Lucky Birthday!☹️")
+        showMessage("Unfortunately, that's not Lucky Birthday!☹️")
     }
 
 
