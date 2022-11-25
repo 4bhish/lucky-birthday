@@ -12,13 +12,13 @@ checkBtn.addEventListener("click", function luckyDob()
 
     if(sum % luckyNumber.value === 0 )
     {
-        showMessage("Congrats Your Birthday is lucky")
+        showMessage("Congrats Your Birthday is lucky!🎉")
     }
     else
     {
 
         
-        showMessage("OOps your birthday is not so lucky")
+        showMessage("unfortunately, that's not Lucky Birthday!☹️")
     }
 
 
