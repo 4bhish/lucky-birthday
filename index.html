@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucky Birthday</title>
@@ -13,10 +13,10 @@
     <p class="description">check if your birthday is lucky, using your <span>Lucky Number!</span></p>
 
     <label for="dob">Enter Date Of Birth: </label>
-    <input type=Date id="dob-input">
+    <input required type=Date id="dob-input">
 
     <label for="lucky-number">Enter Your Lucky Number: </label>
-    <input  type="Number" id="lucky-number">
+    <input  min="0" max="9" type="number" id="lucky-number"/>
 
     <button id="check-button">Check</button>
     <div class="show-result"></div>
