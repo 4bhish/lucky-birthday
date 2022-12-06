@@ -1,3 +1,4 @@
+![Screenshot (8)](https://user-images.githubusercontent.com/108976136/205935080-26452b7b-41a5-47fe-a484-a14cead953bc.png)
 # lucky-birthday
 A fun app where user checks whether their birthday is lucky or not.
 ## How to use:
