@@ -22,7 +22,7 @@ checkBtn.addEventListener("click", function luckyDob()
     }} 
     else
     {
-        showMessage("You should fill both fields!☹️")
+        showMessage("You should fill the both fields!☹️")
     }
 
 
