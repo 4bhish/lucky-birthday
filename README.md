@@ -11,3 +11,4 @@ A fun app where user checks whether their birthday is lucky or not.
 - CSS5
 
 ![Screenshot (8)](https://user-images.githubusercontent.com/108976136/205935080-26452b7b-41a5-47fe-a484-a14cead953bc.png)
+Don't forget to leave a ⭐ if you found this useful
